@@ -1,0 +1,5 @@
+.login-form{width:350px; padding: 15px; text-align: center; margin: auto; margin-top: 20vh;
+    min-height: 180px; border-radius: 10px; background: #ecf0f1;   }
+.lg-input-field{width:90%; margin:auto; margin-bottom: 15px}
+.login-btn{background:  #130060; font-weight: 900; color: #ffffff; border-radius: 10px}
+.login-btn:hover{background:  #130060; font-weight: 900; color: #ffffff; border-radius: 10px}

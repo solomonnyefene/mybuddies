@@ -85,7 +85,7 @@ class Buddies extends React.Component{
                         </span>
                     </div>
                 </div>
-                <div className="row" style={{position:'relative', top: '100px'}}>
+                <div className="row" style={{position:'relative', left:'10px', top: '100px'}}>
                     <div className="col-lg-12 text-center">
                         <div style={{marginTop:'20px', padding:'0px 40px  20px 20px'}}>
                             <h3>

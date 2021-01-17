@@ -50,10 +50,9 @@ class Buddies extends React.Component{
     render(){
         let token = this.props.token,
             session_token = sessionStorage.getItem('token');
-
-        let isAddedBuddy = this.props.isAddedBuddy;
-        if(token === null){return <Redirect to={Routes.login}/>}
-        if(isAddedBuddy){return <Redirect to={Routes.saved}/>}
+        // if(token === null ){
+        //     return <Redirect to={Routes.login}/>
+        // }
 
         const is_disabled =
             this.first_name  === null ||
@@ -69,6 +68,12 @@ class Buddies extends React.Component{
         }else {
             buddies = valuesIn(friends).filter(friend => {return friend.body.buddy})
         }
+
+        let sorted_buddies = valuesIn(buddies).sort((a, b) => {
+            if (a.id > b.id) return -1;
+            return 1;
+            return 0;
+        });
 
         return(
             <div className="dashboard" >
@@ -130,7 +135,7 @@ class Buddies extends React.Component{
                                             </thead>
                                             <tbody>
                                             {
-                                                valuesIn(buddies).map((buddy) => {
+                                                valuesIn(sorted_buddies).map((buddy) => {
                                                     return(
                                                         <tr style={{fontSize:'14px'}}>
                                                             <th >{buddy.id}</th>

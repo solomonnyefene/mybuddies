@@ -4,6 +4,7 @@
     <list default="true" id="67c60aa0-867a-4712-ac0b-7f69bfca0582" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.eslintcache" afterPath="$PROJECT_DIR$/.eslintcache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/COMPONENTS/buddies/Buddies.jsx" afterPath="$PROJECT_DIR$/src/COMPONENTS/buddies/Buddies.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/COMPONENTS/dashboard/Dashboard.jsx" afterPath="$PROJECT_DIR$/src/COMPONENTS/dashboard/Dashboard.jsx" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,8 +52,8 @@
       <file leaf-file-name="Buddies.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/COMPONENTS/buddies/Buddies.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="53" column="12" lean-forward="false" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+            <state relative-caret-position="427">
+              <caret line="72" column="22" lean-forward="false" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -64,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/src/COMPONENTS/dashboard/Dashboard.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="177">
-              <caret line="56" column="62" lean-forward="true" selection-start-line="52" selection-start-column="6" selection-end-line="56" selection-end-column="62" />
+              <caret line="56" column="23" lean-forward="true" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -91,6 +92,7 @@
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/COMPONENTS/auth/Login.jsx" />
+        <option value="$PROJECT_DIR$/src/COMPONENTS/dashboard/Dashboard.jsx" />
         <option value="$PROJECT_DIR$/src/COMPONENTS/buddies/Buddies.jsx" />
       </list>
     </option>
@@ -242,7 +244,7 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/BIDIIBUILD/inventory_web_client" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -403,12 +405,12 @@
       <option name="presentableId" value="Default" />
       <updated>1610852476149</updated>
       <workItem from="1610852481938" duration="1748000" />
-      <workItem from="1610874601242" duration="3114000" />
+      <workItem from="1610874601242" duration="5598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4862000" />
+    <option name="totallyTimeSpent" value="7346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="721" extended-state="6" />
@@ -568,7 +570,7 @@
     <entry file="file://$PROJECT_DIR$/src/COMPONENTS/dashboard/Dashboard.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
-          <caret line="56" column="62" lean-forward="true" selection-start-line="52" selection-start-column="6" selection-end-line="56" selection-end-column="62" />
+          <caret line="56" column="23" lean-forward="true" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
@@ -577,8 +579,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/COMPONENTS/buddies/Buddies.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="53" column="12" lean-forward="false" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+        <state relative-caret-position="427">
+          <caret line="72" column="22" lean-forward="false" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>

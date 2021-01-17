@@ -53,7 +53,7 @@ class Dashboard extends React.Component{
         let token = this.props.token,
             session_token = sessionStorage.getItem('token'),
             isAddedBuddy = this.props.isAddedBuddy;
-        if(token === null){return <Redirect to={Routes.login}/>}
+        if(token === null ){return <Redirect to={Routes.login}/>}
         if(isAddedBuddy){return <Redirect to={Routes.saved}/>}
 
         const is_disabled =

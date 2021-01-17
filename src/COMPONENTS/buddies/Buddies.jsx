@@ -49,7 +49,12 @@ class Buddies extends React.Component{
     searchBuddy = (e) => {this.props.searchBuddy(e.target.value)};
     render(){
         let token = this.props.token,
-            session_token = sessionStorage.getItem('token')
+            session_token = sessionStorage.getItem('token');
+
+        let isAddedBuddy = this.props.isAddedBuddy;
+        if(token === null){return <Redirect to={Routes.login}/>}
+        if(isAddedBuddy){return <Redirect to={Routes.saved}/>}
+
         const is_disabled =
             this.first_name  === null ||
             this.state.surname === null ||

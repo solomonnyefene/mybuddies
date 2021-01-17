@@ -45,7 +45,7 @@ class Login extends React.Component{
 
         return(
            <div className="App">
-               <h1 className="welcome-text">Welcome to Migmen, login</h1>
+               <h1 className="welcome-text">Welcome to Buddies, login</h1>
                <div className="login-form">
                    <div>
                        <b>Email</b>
